@@ -1,4 +1,5 @@
 :root {
+  --black: #171321;
   --dark: #323240;
   --lightdark: #636573;
   --purple: #bfa7f2;
@@ -65,7 +66,8 @@ nav a {
   display: block;
 }
 
-nav a:hover {
+nav a:hover,
+nav [class*="fa-"]:hover {
   color: var(--lightdark);
 }
 
@@ -103,6 +105,57 @@ nav a:hover {
   display: block;
   font-weight: 300;
 }
+.section-grey {
+  background-color: var(--lightdark);
+}
+#me {
+  padding: 4rem 1rem;
+}
+
+#me h2 {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+
+#me h3 {
+  color: var(--purple);
+}
+
+#me h4 {
+  font-size: 1rem;
+  font-family: var(--mono);
+  margin: 0;
+}
+
+.blackbox {
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--black);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#me ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+#me img {
+  max-width: 600px;
+  margin: 3.5rem 0 4rem 0;
+  padding: 1rem;
+  border-left: 1px solid var(--lightgreen);
+  border-top: 1px solid var(--lightgreen);
+  border-radius: 25px;
+}
+
 footer {
   text-align: center;
   padding: 4rem 0;
@@ -123,6 +176,10 @@ footer [class*="fa-"] {
   color: var(--lightgreen);
 }
 
+footer [class*="fa-"]:hover {
+  color: var(--darkgreen);
+}
+
 @media (min-width: 850px) {
   nav {
     max-width: 1200px;
@@ -133,5 +190,33 @@ footer [class*="fa-"] {
     flex-basis: auto;
     text-align: left;
     margin-right: auto;
+  }
+}
+
+@media (min-width: 870px) {
+  article {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+  #me {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  #me img {
+    grid-column: 1/6;
+    grid-row: 1/2;
+  }
+
+  .text {
+    grid-column: 5/11;
+    grid-row: 1/2;
+    order: 2;
+    text-align: right;
+  }
+
+  #me ul {
+    justify-content: flex-end;
   }
 }
