@@ -2,7 +2,7 @@
 :root {
   --black: #171321;
   --dark: #323240;
-  --lightdark: #636573;
+  --lightdark: #434356;
   --purple: #bfa7f2;
   --lightgreen: #dcf235;
   --darkgreen: #67733d;
@@ -141,7 +141,7 @@ nav [class*="fa-"]:hover {
   background-color: var(--purple);
 }
 
-#me ul {
+.text ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -225,5 +225,18 @@ footer [class*="fa-"]:hover {
 
   #me ul {
     justify-content: flex-end;
+  }
+
+  #me .reverse .text {
+    grid-column: 1/7;
+    order: 2;
+    text-align: left;
+  }
+  #me .reverse img {
+    grid-column: 6/11;
+    grid-row: 1/2;
+  }
+  #me .reverse ul {
+    justify-content: flex-start;
   }
 }
