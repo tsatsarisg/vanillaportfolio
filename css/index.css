@@ -113,6 +113,24 @@ nav [class*="fa-"]:hover {
   padding: 4rem 1rem;
 }
 
+#courses {
+  padding: 4rem 4rem;
+}
+
+.courses {
+  list-style: none;
+}
+
+.courses li > a {
+  text-decoration: none;
+  color: #bfa7f2;
+}
+
+.courses li > a:hover {
+  text-decoration: none;
+  color: #323240;
+}
+
 #me h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2.5rem * 1.5);
