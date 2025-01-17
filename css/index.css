@@ -121,11 +121,13 @@ nav [class*="fa-"]:hover {
   list-style: none;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .list li > a {
   text-decoration: none;
   color: #bfa7f2;
+  width: 100%;
 }
 
 .list li > a:hover {
