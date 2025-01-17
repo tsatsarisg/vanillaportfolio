@@ -1,7 +1,7 @@
 const books = [
   {
     title: "Clean Code: A Handbook of Agile Software Craftsmanship",
-    image: "../assets/books/clean-code.jpg",
+    image: "./assets/books/clean-code.jpg",
     url: "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882",
   },
   {
@@ -59,12 +59,12 @@ const books = [
   },
   {
     title: "Patterns of Enterprise Application Architecture",
-    image: "../assets/books/application.jpg",
+    image: "./assets/books/application.jpg",
     url: "https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420",
   },
   {
     title: "Node.js Design Patterns",
-    image: "../assets/books/node.jpg",
+    image: "./assets/books/node.jpg",
     url: "https://www.nodejsdesignpatterns.com/",
   },
 ];
