@@ -150,6 +150,10 @@ nav [class*="fa-"]:hover {
   margin: 0;
 }
 
+article {
+  margin-top: 3rem;
+}
+
 .blackbox {
   padding: 1rem;
   border-radius: 10px;
@@ -264,5 +268,11 @@ footer [class*="fa-"]:hover {
   }
   #me .reverse ul {
     justify-content: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  article img {
+    display: none;
   }
 }
