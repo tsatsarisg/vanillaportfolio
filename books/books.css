@@ -1,0 +1,43 @@
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+main h1 {
+  margin-bottom: 1rem;
+}
+
+#book-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book-card {
+  width: 23%;
+  padding: 1rem;
+  overflow: hidden;
+
+  border-left: 1px solid var(--lightgreen);
+  border-top: 1px solid var(--lightgreen);
+  border-radius: 25px;
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+}
+
+.book-card h3 {
+  margin: 10px 0;
+}
+
+.book-card a {
+  text-decoration: none;
+  color: white;
+}
+
+.book-card a:hover {
+  text-decoration: underline;
+}
