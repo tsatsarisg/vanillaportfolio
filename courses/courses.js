@@ -41,7 +41,7 @@ const courses = [
   },
   {
     title: "NestJS: The Complete Developer's Guide",
-    image: "./assets/certificates/nest.jpg",
+    image: "./assets/certificates/nestjs.jpg",
     url: "https://www.udemy.com/certificate/UC-9b675eaf-f690-44de-b41e-f1e626ac5b20/",
   },
 ];
