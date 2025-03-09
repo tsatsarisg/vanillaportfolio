@@ -41,8 +41,8 @@ const courses = [
   },
   {
     title: "NestJS: The Complete Developer's Guide",
-    image: "./assets/certificates/coming-soon.jpg",
-    url: "  https://www.udemy.com/course/nestjs-the-complete-developers-guide/?couponCode=24T5MT071025",
+    image: "./assets/certificates/nest.jpg",
+    url: "https://www.udemy.com/certificate/UC-9b675eaf-f690-44de-b41e-f1e626ac5b20/",
   },
 ];
 
